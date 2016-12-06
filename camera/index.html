@@ -1,0 +1,17 @@
+<!DOCTYPE html>  
+<html xmlns="http://www.w3.org/1999/xhtml">  
+<head>  
+	<meta charset="utf-8">
+    <title>HTML5 GetUserMedia Demo</title>  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />  
+</head>  
+<body>  
+    <input type="button" title="开启摄像头" value="开启摄像头" onclick="getMedia();" /><br />
+    <video height="120px" autoplay="autoplay"></video><hr />
+    <input type="button" title="拍照" value="拍照" onclick="getPhoto();" /><br />
+    <canvas id="canvas1" height="120px" ></canvas><hr />
+    <input type="button" title="视频" value="视频" onclick="getVedio();" /><br />
+    <canvas id="canvas2" height="120px"></canvas>
+</body>  
+<script type="text/javascript" src="./index.js"></script>
+</html>  
